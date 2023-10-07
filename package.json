@@ -1,6 +1,9 @@
 {
-  "name": "@unix/functions",
+  "name": "unix-functions",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "General purpose functions for bots made with the Unix framework.",
   "keywords": [
     "functions",
@@ -27,10 +30,18 @@
     "url": "https://github.com/UnixLab-Technology/unix-functions"
   },
   "scripts": {
+    "dev": "ts-node src/index.ts",
     "build": "tsup"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "eslint": "^8.51.0",
+    "ts-node": "^10.9.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "peerDependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "private": false
 }
