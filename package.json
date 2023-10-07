@@ -1,0 +1,36 @@
+{
+  "name": "@unix/functions",
+  "version": "0.0.1",
+  "description": "General purpose functions for bots made with the Unix framework.",
+  "keywords": [
+    "functions",
+    "typescript",
+    "unix",
+    "unix-framework",
+    "discord"
+  ],
+  "homepage": "https://github.com/UnixLab-Technology/unix-functions#readme",
+  "bugs": {
+    "url": "https://github.com/UnixLab-Technology/unix-functions/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Eric Freitas",
+    "email": "ericfr.contato@gmail.com",
+    "url": "https://github.com/freitaseric/"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnixLab-Technology/unix-functions"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
